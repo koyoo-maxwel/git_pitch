@@ -4,14 +4,15 @@
 #### By **[koyoo-maxwel](https://github.com/koyoo-maxwel/)**
 
 ## Description
-The Pitch It web application is meant for users to post pitches :
+The minute-Pitch is web application  that enable users to:
 
-    1. Interview Pitch
-    2. Product Pitch
-    3. Promotion Pitch
-    4. Business
-    5. Academic
-    6. Political
+    1. Post pitches
+    2. View pitches posted by other user
+    3. Downvote a pitch
+    4. Upvote a pitch
+    5. Comment on  pitches posted by othe users
+
+    
   
 A user can select any of the categories from the navbar to view the pitches on these categories
 
