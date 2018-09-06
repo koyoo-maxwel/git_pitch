@@ -1,7 +1,7 @@
 # [minute-pitch](https://minute-pitch.herokuapp.com/)
 ## Pitch It is a web application that is meant for users to add pitches on different  categories
 ### 06th/sep/2018
-#### By **[koyoo-maxwel](https://github.com/koyoo-maxwel/)**
+#### By **[koyoo-maxwel]**(https://github.com/koyoo-maxwel/)**
 
 ## Description
 The minute-Pitch is web application  that enable users to:
