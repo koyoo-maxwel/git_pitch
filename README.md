@@ -12,7 +12,7 @@ The minute-Pitch is web application  that enable users to:
     4. Upvote a pitch
     5. Comment on  pitches posted by othe users
 
-    
+
   
 A user can select any of the categories from the navbar to view the pitches on these categories
 
@@ -78,4 +78,4 @@ SQLAlchemy errors, automatic sign out has a short time span
 Contact me on developer [koyoo maxwel](maxwell@juantechno.com) for any comments, reviews or advice.
 
 ### License
-Copyright (c) **koyoo-maxwel**
+Copyright (c) [koyoo-maxwel](LICENSE)
