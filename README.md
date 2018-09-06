@@ -61,7 +61,7 @@ python manage.py db upgrade
 In the same terminal type:
 `python3 manage.py server`
 
-Open the browser on `http://localhost:5000/`
+Open the browser on `http://localhost:5000/`, `http://127.0.0.1:5000`
 
 ## Known bugs
 SQLAlchemy errors, automatic sign out has a short time span
