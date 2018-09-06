@@ -19,7 +19,7 @@ Other users can give feedback to the pitch posts by commenting, liking or dislik
 
 
 ## Specifications
-Get the specs [here]()
+Get the specs [here](https://github.com/koyoo-maxwel/minute-pitch/blob/master/SPECS.md)
 
 ## Set-up and Installation
 
