@@ -1,44 +1,28 @@
-import os
 
 class Config:
     '''
-    Describes the general configurations
+    General configuration parent class
     '''
-   
-    @staticmethod
-    def init_app(app):
-        pass
+    pass
+
+
 
 class ProdConfig(Config):
     '''
-    Production configuration child class
-    
+    Production  configuration child class
+
     Args:
-        Config: The parent configuration class with general configuration settings
+    Config: The parent configuration class with General configuration settings
     '''
-    
+    pass
+
 
 class DevConfig(Config):
     '''
-    Development configuration child class
-    
+    Development  configuration child class
+
     Args:
-        Config: The parent configuration class with general configuration settings
+    Config: The parent configuration class with General configuration settings
     '''
-    
+
     DEBUG = True
-
-class TestConfig(Config):
-    '''
-    Test configuration child class
-    
-    Args:
-        Config: The parent configuration class with general configuration settings
-    '''
-   
-
-config_options = {
-    'development':DevConfig,
-    'production':ProdConfig,
-    'test':TestConfig
-}
