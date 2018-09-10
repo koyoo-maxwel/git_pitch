@@ -5,7 +5,7 @@ class Config:
     '''
 
     SECRET_KEY = os.environ.get('SECRET_KEY')
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://student:1209@localhost/minute-pitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://student:1209@localhost/pitch'
 
     pass
 
