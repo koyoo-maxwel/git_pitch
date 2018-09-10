@@ -11,9 +11,8 @@ from . import auth
 def register():
     form = RegistrationForm()
     if form.validate_on_submit():
-        user = User(email=form.email.data,
-                    username=form.username.data,
-                    password_hash=form.password.data)
+        user = User(email=form.email.data,username=form.username.data,password_hash=form.password.data)
+        user.set_password(form.password.data)
         db.session.add(user)
         db.session.commit()
         return redirect(url_for('auth.login'))
@@ -32,9 +31,8 @@ def login():
 
         flash('Invalid username or Password')
 
-    title = "pitch login"
+    title = "watchlist login"
     return render_template('auth/login.html',login_form = login_form,title=title)
-
 
 @auth.route('/logout')
 @login_required
