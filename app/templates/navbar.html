@@ -14,15 +14,16 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/"> Pitch  </a>
+                <a class="navbar-brand" href="{{url_for('main.pitch')}}"> Pitch  </a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
+                    <li><a href="{{url_for('main.category')}}">pitch_category</a></li>
             </div>
             <ul class="nav navbar-nav navbar-right">
             {% if current_user.is_authenticated %}
-            <li style="color:white;padding:15px;">{{current_user.username}}</li>
+            <li style="color:red;padding:15px;">{{current_user.username}}</li>
             <li><a href="{{url_for('auth.logout')}}">Sign out</a></li>
             {% else %}
             <li><a href="{{url_for('auth.login')}}">Sign in</a></li>
@@ -39,15 +40,3 @@
 
 
 
-<!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Minute pitch</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-        <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav> -->

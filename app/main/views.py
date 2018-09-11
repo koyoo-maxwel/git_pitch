@@ -11,3 +11,22 @@ def index():
     title = "Welcome to  your best Pitches || pitch it now !"
     return render_template('index.html', title = title)
 
+
+@main.route('/pitch')
+def pitch():
+    '''
+    View root page function that returns the index page and its data
+    '''
+    title = 'pitch'
+    return render_template('pitch.html', title =title)
+
+
+@main.route('/category')
+def category():
+    '''
+    View root page function that returns the index page and its data
+    '''
+    title = 'pitch ||Category'
+    return render_template('category.html', title = title )
+
+
