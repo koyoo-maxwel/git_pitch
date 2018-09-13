@@ -1,6 +1,6 @@
-export SECRET_KEY='pitch'
-export MAIL_USERNAME='koyoo-maxwel'
-export MAIL_PASSWORD='Max120992'
+export SECRET_KEY='pitchit'
+export MAIL_USERNAME='koyoomaxwel@gmail.com'
+export MAIL_PASSWORD='12091995malindi?'
+export FLASK_ENV=development
 
-
-python3.7 manage.py server
+python3 manage.py server
